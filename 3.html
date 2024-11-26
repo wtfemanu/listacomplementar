@@ -9,18 +9,18 @@
     const Pergunta = prompt(`informe uma palavra`);
 
     let soletrado = Array.from(Pergunta);
-
+    
     let vogais = [];
     let consoantes= [];
-
+    
     for(letra of soletrado){
-        if(letra == `a` ||letra == `e` ||letra == `i` ||letra == `o` ||letra == `U`){
-            vogais.push(soletrado)
+        if(letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
+            vogais.push(letra)
         }
-        else{consoantes.push(soletrado)}
-
-        document.write(vogais)
+        // else{consoantes.push(soletrado)}
+        
     }
+    document.write(vogais)
 
 
     //Processamento
