@@ -10,7 +10,22 @@
     //Entrada
     let nomes = ["Hilário", "Rafaela", "José", "Bárbara", "Fábio", "Júlia"];
 
-    
+
+
+    for (nome of nomes) {
+     let soletrado = Array.from(nome)
+     let semespaco = soletrado.join("")
+
+        for(letra of semespaco){
+            if(letra == `á` || letra ==`ú` || letra== `é`){
+                let nomecerto = semespaco.replace("á","a") 
+            }
+        }
+     
+        
+    }
+
+    alert(nomecerto)
 
     //Processamento
 

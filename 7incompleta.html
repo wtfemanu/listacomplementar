@@ -10,11 +10,17 @@
     //Entrada
     let cores = ["Branco", "Azul", "Marrom", "Cinza", "Verde", "Amarelo", "Vermelho", "Preto"];
     let corFav = []
+    let temCor = false
 
-    const Pergunte = prompt(`entre as cores ${cores} quais são as suas preferidas?`)
+    const Pergunte = prompt(`entre as cores ${cores} quais voce gosta ?`)
+    
+    let Pergunta =Pergunte.slice(` `)
 
     for(cor of cores){
-        
+        if(Pergunta == cor){
+            alert(Pergunta)
+        }
+        else(alert(`sua cor preferida n tem`))
     }
 
 
