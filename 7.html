@@ -11,12 +11,15 @@
     let cores = ["Branco", "Azul", "Marrom", "Cinza", "Verde", "Amarelo", "Vermelho", "Preto"];
     let corFav = []
 
-    const Pergunte = prompt(`entre as cores ${cores} quais são as suas preferidas?`)
-
     for(cor of cores){
-        
-    }
+        let resposta = prompt(`voce gosta da cor ${cor}?`)
+        if (resposta == `sim` || resposta ==`Sim` || resposta == `s`) {
+                corFav.push(cor)
+            }
+    }    
+   
 
+    alert(`as suas cores preferidas são :${corFav}`)
 
     //Processamento
 

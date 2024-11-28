@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
-            "name": "Open 3.html",
-            "file": "/home/emanuel.silva/listacomplementar/3.html"
+            "name": "Open 4incompleta.html",
+            "file": "/home/emanuel.silva/listacomplementar/4incompleta.html"
         }
     ]
 }
