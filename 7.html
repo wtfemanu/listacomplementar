@@ -12,14 +12,15 @@
     let corFav = []
 
     for(cor of cores){
-        let resposta = prompt(`voce gosta da cor ${cor}?`)
-        if (resposta == `sim` || resposta ==`Sim` || resposta == `s`) {
-                corFav.push(cor)
-            }
-    }    
-   
+        let Pergunte = prompt(`voce gosta da cor ${cor}?`)
+        if(Pergunte == `s`|| Pergunte == `sim`){
+            corFav.push(cor)
+        }
+        
+    }
+    alert(corFav)
 
-    alert(`as suas cores preferidas são :${corFav}`)
+
 
     //Processamento
 
