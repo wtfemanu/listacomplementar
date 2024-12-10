@@ -8,13 +8,13 @@
 
     //Entrada
     let lista = ["A", "E", 2, 4.8, "CINQUENTA", "Araquari", 80, 10, 3.2];
-    let numeros =[]
+    let numeros =0
 
     for(item of lista ){
-        let arredonda = Math.round(item)
+        
         
         if(arredonda % 2 == 1 || arredonda% 2 ==0){
-            numeros.push(item)
+            numeros+=item
         }
     }
 
